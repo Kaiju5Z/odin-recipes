@@ -1,5 +1,6 @@
 body {
     background-color:gray;
+
 }
 
 
@@ -20,17 +21,48 @@ img {
     display: block;
     height: auto;
     width: auto;
-    border-radius: 3%;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
 }
 
 .options {
     background-color: lightslategray;
     padding:20px;
     border:20px grey;
-    margin:20px;
     width: 100px;
+    height: 50px;
     font-family: roboto-thin;
-    position: static;
+    text-align: center;
+    display: inline-block;
+    margin-left: 245px;
+    margin-top: 50px;
+}
+
+
+#Lasagna {
+    float: left;
+    border: 3px solid black;
+}
+
+#pwaffles {
+    float: left;
+    border: 3px solid black;
+
+}
+
+#smoothie {
+    float:left;
+    border: 3px solid black;
+}
+
+#plug {
+    font-family: roboto-thin;
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0%;
+    margin-top: 230px;
+    text-align: center;
+    border: 1px solid black;
 }
